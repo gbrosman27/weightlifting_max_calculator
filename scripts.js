@@ -1,0 +1,3 @@
+.max-weight {
+    border
+}
