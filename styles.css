@@ -20,13 +20,31 @@ body {
     border-color: 3px cornflowerblue;
     box-shadow: 0 2px 20px cornflowerblue;
     width: 400px;
-    padding: 45px;
+    padding: 35px;
 }
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.submit {
-    margin-top: 20px;    
+.weight_lifted {
+    margin-bottom: 25px;
 }
+
+.reps_lifted {
+    margin-bottom: 15px;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.max_weight {
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+    padding: 0px;
+    margin: 0px;
+}
+
