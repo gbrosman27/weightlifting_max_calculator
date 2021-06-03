@@ -9,16 +9,17 @@
 </head>
 <body>
     <div class="container">
-        <h2>How much weight did you lift?</h2>
-        <input class="weight-lifted" id="weight-lifted" type="text" placeholder="Enter weight lifted">
-        <h2>How many times did you lift it?</h2>
-        <input class="reps-lifted" id="reps-lifted" type="text" placeholder="Reps lifted">
-        <br>
-        <button class="submit" id="submit">Submit</button>
-        <h1>Your estimated 1RM is: </h1>
-        <div class="max-weight" id="max-weight"></div>
+        <form class="calculator" id="calculator">
+            <h2>How much weight did you lift?</h2>
+            <input class="weight-lifted" id="weight-lifted" type="number" placeholder="Enter weight lifted">
+            <h2>How many times did you lift it?</h2>
+            <input class="reps-lifted" id="reps-lifted" type="number" placeholder="Enter reps lifted">
+            <br>
+            <button class="submit" id="submit" type="submit">Submit</button>
+            <h1>Your estimated 1RM is: </h1>
+            <h2 class="max-weight" id="max-weight">0</h2>
+        </form>
     </div>
-
     <link rel="scripts" href="scripts.js">
 </body>
 </html>

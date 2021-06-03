@@ -5,7 +5,7 @@
 
 
 body {
-    background-color: coral;
+    background-color:rgb(166, 168, 170);
     font-size: 'Open Sans', sans-serif;
     display: flex;
     align-items: center;
@@ -15,10 +15,12 @@ body {
 }
 
 .container {
-    background-color:cornflowerblue;
+    background-color:grey;
     border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    border-color: 3px cornflowerblue;
+    box-shadow: 0 2px 20px cornflowerblue;
     width: 400px;
+    padding: 45px;
 }
 
 h2 {
