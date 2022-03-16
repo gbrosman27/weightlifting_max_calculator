@@ -10,7 +10,7 @@ function calc_max(weight_lifted, reps_lifted) {
         const max = Math.round(Number(weight_lifted + result));
         const max_weight_result = document.getElementById('max_weight');
 
-        return max_weight_result.innerHTML = max;
+        return max_weight_result.innerHTML = max ;
 };
 
 
@@ -24,3 +24,9 @@ calculator.addEventListener("submit", function(e) {
     
 });
 
+
+// Reset button clears to 0
+calculator.addEventListener("reset", function() {
+    return document.getElementById("max_weight").innerHTML = 0;
+
+});
