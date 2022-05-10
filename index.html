@@ -10,14 +10,14 @@
   <body>
     <main class="container">
       <form class="calculator" id="calculator">
-        <h2>How much weight did you lift (lbs)?</h2>
+        <label for="weight_lifted"><h2>How much weight did you lift (lbs)?</h2></label>
         <input
           class="weight_lifted"
           id="weight_lifted"
           type="text"
           placeholder="Enter weight lifted"
         />
-        <h2>How many times did you lift it?</h2>
+        <label for="reps_lifted"><h2>How many times did you lift it?</h2></label>
         <input
           class="reps_lifted"
           id="reps_lifted"
@@ -35,7 +35,7 @@
           <thead><th>90%</th><th>80%</th><th>70%</th></thead>
         <tbody>
         <tr>
-          <td>0</td><td>0</td><td>0</td>
+          <td id="percent90">0</td><td id="percent80">0</td><td id="percent70">0</td>
         </tr>
         </tbody>
       </table>
